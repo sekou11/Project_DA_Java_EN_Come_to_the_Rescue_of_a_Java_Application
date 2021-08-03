@@ -19,11 +19,11 @@ public class ReadeSymptomDataFromFile implements ISymptomReader {
 	private ArrayList<String> symptomesList = new ArrayList<String>();
 //	private String fileInputName = inputFile;
 
-	public ReaderSymptomsDataFromFile() {
+	public ReadeSymptomDataFromFile() {
 		// TODO Auto-generated constructor stub
 	}
 
-	public ReaderSymptomsDataFromFile(String fileInputName) {
+	public ReadeSymptomDataFromFile(String fileInputName) {
 		this.fileInputName = fileInputName;
 	}
 

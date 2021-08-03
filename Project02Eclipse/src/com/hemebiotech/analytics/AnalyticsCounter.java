@@ -29,7 +29,7 @@ public class AnalyticsCounter {
 		final String inputFile = path;
 		final String outputName = Paths.get(path).getParent().toString() + "/result.out";
 
-		ReaderSymptomsDataFromFile reader = new ReaderSymptomsDataFromFile(inputFile);
+		ReadeSymptomDataFromFile reader = new ReadeSymptomDataFromFile(inputFile);
 		List<String> namesOfSymptomes = reader.getSymptoms();
 
 		NumberOfOccurrences countSymptomes = new NumberOfOccurrences();
