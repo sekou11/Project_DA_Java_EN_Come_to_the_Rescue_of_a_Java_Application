@@ -1,4 +1,5 @@
 Dans un répértoire racine contenant:
+
 Au moins les fichiers suivant:
 
 > git ls -R .
@@ -17,6 +18,7 @@ analytics
 ./src/com/hemebiotech/analytics:
 AnalyticsCounter.java  NumberOfOccurrences.java         WriteSymptoms.java
 ISymptomReader.java    ReaderSymptomsDataFromFile.java
+
 pour compiler
 src : les sources bin : Les classes générées
 
@@ -32,9 +34,12 @@ Tester
 Lancer le programme si tous va bien
 
 java -cp .\bin\ com.hemebiotech.analytics.AnalyticsCounter
+
 Environnment Linux
+
 Compiler
 > javac -d bin/ -cp src/ ./src/com/hemebiotech/analytics/AnalyticsCounter.java
+
 Tester
 Lancer le programme si tous va bien
 
